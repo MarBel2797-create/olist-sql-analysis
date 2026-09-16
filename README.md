@@ -34,3 +34,20 @@ JOIN olist_products_dataset p
 GROUP BY p.product_category_name
 ORDER BY total_revenue DESC
 LIMIT 10;
+
+Результат:
+
+Категория                 Выручка (BRL)
+beleza_saude                1 258 681
+relogios_presentes.         1 205 006
+cama_mesa_banho.            1 036 989
+esporte_lazer                 988 049
+informatica_acessorios.       911 954
+moveis_decoracao              729 762
+cool_stuff                    635 291
+utilidades_domesticas         632 249
+automotivo      т.            592 720
+ferramentas_jardim.           485 256
+
+Вывод: Категории «Красота и здоровье» и «Часы и подарки» —
+лидеры по выручке. Это ключевые направления для инвестиций в маркетинг.
