@@ -19,7 +19,7 @@
 
 🔗 **[Открыть дашборд в Yandex DataLens](https://datalens.ru/ychns8cp3ixeh-top-10-categories-olist?_share_link=org&utm_referrer=about%3Ablank)**
 
-![Дашборд DataLens](datalens_dashboard.png)
+![Дашборд DataLens](top-10 categories Olist - Yandex DataLens)
 
 ---
 
@@ -299,7 +299,7 @@ FROM olist_order_reviews_dataset;
 1. Скачайте датасет Brazilian E-Commerce Public Dataset by Olist (Kaggle).
 2. Для запуска сквозного пайплайна (SQL + Python) поместите нужные CSV-файлы в папку и запустите:
    ```
-   python olist_sql_python_pipeline.py
+   olist_sql_python_pipeline.py
    ```
 3. Для выполнения только SQL-запросов используйте DB Browser for SQLite (запросы находятся в файле queries.sql).
 
